@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(126, 118, 118);
+}
+
+svg {
+  border: 1px solid black;
+  background-color: blanchedalmond;
+}
+
+rect {
+  fill: rgb(133, 47, 47);
+}
+
+rect:hover {
+  fill: rgb(165, 112, 112);
+}
+
+#tooltip {
+  fill: rgb(54, 47, 47);
+  stroke: black;
+  font-size: 10px;
+  display: block;
+  background-color: coral;
+}
